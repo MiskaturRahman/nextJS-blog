@@ -1,4 +1,3 @@
-import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -35,7 +34,7 @@ export default function Home({ posts }: Props) {
 
         <img
           className="hidden h-20 md:inline-flex lg:h-60"
-          src="M.png"
+          src="/icons/M.png"
           alt=""
         />
       </div>
